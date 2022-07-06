@@ -5,6 +5,7 @@ iOS UIKit UICollectionVIew Flow Layout / Compositional Layout, Texture, FlexLayo
 + Flow Layout 기반 Grid 형식 레이아웃 구성
 + Flow Layout 기반 Self-Sizing Cell 레이아웃 구성
 + Compositional Layout 기반 Self-Sizing Cell 레이아웃 구성
++ Compositional Layout 기반 nested collectionView 레이아웃 구성
 + Texture 기반 Masonry 형식의 레이아웃 구성(Pinterest)
 + FlexLayout 기반 Self-Sizing Feed 형식 레이아웃 구성
 
