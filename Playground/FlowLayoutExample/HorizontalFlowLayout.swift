@@ -7,7 +7,6 @@
 
 import UIKit
 
-// 서브 클래스로 정의하여 커스텀
 protocol HorizontalFlowLayoutDelegate: AnyObject {
     func collectionView(
         _ collectionView: UICollectionView, sizeForPillAtIndexPath indexPath: IndexPath
@@ -24,7 +23,6 @@ protocol HorizontalFlowLayoutDelegate: AnyObject {
 }
 
 final class HorizontalFlowLayout: UICollectionViewFlowLayout {
-    
     weak var delegate: HorizontalFlowLayoutDelegate?
     
     var layoutHeight: CGFloat = 0.0

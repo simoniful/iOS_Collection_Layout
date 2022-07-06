@@ -30,6 +30,9 @@
 		F4189EFE2875529800068FD3 /* UIColor +.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4189EFD2875529800068FD3 /* UIColor +.swift */; };
 		F4189F00287552C500068FD3 /* UIImageView +.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4189EFF287552C500068FD3 /* UIImageView +.swift */; };
 		F4189F03287552EF00068FD3 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4189F02287552EF00068FD3 /* BaseView.swift */; };
+		F41E90F92875B741001AD18D /* Compositional.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41E90F82875B741001AD18D /* Compositional.swift */; };
+		F41E90FB2875B78F001AD18D /* CompositionalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41E90FA2875B78F001AD18D /* CompositionalCell.swift */; };
+		F41E90FD2875B80E001AD18D /* MySection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41E90FC2875B80E001AD18D /* MySection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +85,9 @@
 		F4189EFD2875529800068FD3 /* UIColor +.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor +.swift"; sourceTree = "<group>"; };
 		F4189EFF287552C500068FD3 /* UIImageView +.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView +.swift"; sourceTree = "<group>"; };
 		F4189F02287552EF00068FD3 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		F41E90F82875B741001AD18D /* Compositional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Compositional.swift; sourceTree = "<group>"; };
+		F41E90FA2875B78F001AD18D /* CompositionalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositionalCell.swift; sourceTree = "<group>"; };
+		F41E90FC2875B80E001AD18D /* MySection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySection.swift; sourceTree = "<group>"; };
 		FAAF8A42EB29E49EBDC087A0 /* Pods_Playground_PlaygroundUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Playground_PlaygroundUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -163,6 +169,7 @@
 			children = (
 				F4189EB42875271200068FD3 /* AppDelegate.swift */,
 				F4189EB62875271200068FD3 /* SceneDelegate.swift */,
+				F4189F042875B6D700068FD3 /* CompositionalExample */,
 				F4189EED287534B700068FD3 /* FlowLayoutExample */,
 				F4189EEE287534C700068FD3 /* TextureExample */,
 				F4189EF328753A4000068FD3 /* FlexLayoutExample */,
@@ -238,6 +245,16 @@
 				F4189EFA28753B0900068FD3 /* BaseViewController.swift */,
 			);
 			path = Base;
+			sourceTree = "<group>";
+		};
+		F4189F042875B6D700068FD3 /* CompositionalExample */ = {
+			isa = PBXGroup;
+			children = (
+				F41E90F82875B741001AD18D /* Compositional.swift */,
+				F41E90FA2875B78F001AD18D /* CompositionalCell.swift */,
+				F41E90FC2875B80E001AD18D /* MySection.swift */,
+			);
+			path = CompositionalExample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -484,13 +501,16 @@
 			files = (
 				F4189EF728753A8D00068FD3 /* CollectionViewExampleView.swift in Sources */,
 				F4189EB92875271200068FD3 /* FlowLayoutSelfSizing.swift in Sources */,
+				F41E90FB2875B78F001AD18D /* CompositionalCell.swift in Sources */,
 				F4189EFE2875529800068FD3 /* UIColor +.swift in Sources */,
 				F4189EF02875360200068FD3 /* MosaicCollectionViewLayout.swift in Sources */,
+				F41E90F92875B741001AD18D /* Compositional.swift in Sources */,
 				F4189EEC287530AE00068FD3 /* TextureViewController.swift in Sources */,
 				F4189EE828752A9200068FD3 /* HorizontalFlowLayout.swift in Sources */,
 				F4189EB52875271200068FD3 /* AppDelegate.swift in Sources */,
 				F4189EB72875271200068FD3 /* SceneDelegate.swift in Sources */,
 				F4189EF928753AAF00068FD3 /* HouseCell.swift in Sources */,
+				F41E90FD2875B80E001AD18D /* MySection.swift in Sources */,
 				F4189F00287552C500068FD3 /* UIImageView +.swift in Sources */,
 				F4189EEA28752E0000068FD3 /* FlowLayoutSelfSizingCell.swift in Sources */,
 				F4189EF22875362D00068FD3 /* ImageCellNode.swift in Sources */,
