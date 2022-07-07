@@ -1,4 +1,4 @@
-# Advances in Collection View Layout
+bㅠ# Advances in Collection View Layout
 iOS UIKit UICollectionVIew Flow Layout / Compositional Layout, Texture, FlexLayout 기반의 레이아웃 실습
 
 ## Description
@@ -45,10 +45,10 @@ iOS UIKit UICollectionVIew Flow Layout / Compositional Layout, Texture, FlexLayo
   + grow/shirink, justify/asign 등의 Container / Item 관계 설정을 보다 확실하게 하여 구성이 가능하다
 
 ### 3. Flex 개념
-[Flex Layout Doc](https://github.com/layoutBox/FlexLayout#intro_usage_example)
-[Texture Layout Doc](https://texture-kr.gitbook.io/wiki/newbie-guide/flex-box)
-[Flex Container 관련 이론 정리](https://velog.io/@simoniful/CSS-CSS-Basics-5)
-[Flex Item 관련 이론 정리](https://velog.io/@simoniful/CSS-CSS-Basics-6)
+[Flex Layout Doc](https://github.com/layoutBox/FlexLayout#intro_usage_example)</br>
+[Texture Layout Doc](https://texture-kr.gitbook.io/wiki/newbie-guide/flex-box)</br>
+[Flex Container 관련 이론 정리](https://velog.io/@simoniful/CSS-CSS-Basics-5)</br>
+[Flex Item 관련 이론 정리](https://velog.io/@simoniful/CSS-CSS-Basics-6)</br>
 
 ## KeyNote
 
