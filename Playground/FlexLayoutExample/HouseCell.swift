@@ -75,6 +75,7 @@ class HouseCell: UICollectionViewCell {
         layout()
     }
     
+    // collectionView Delegate에서 호출을 통한 리렌더링
     override func sizeThatFits(_ size: CGSize) -> CGSize {
         contentView.pin.width(size.width)
         layout()
