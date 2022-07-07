@@ -27,7 +27,7 @@ iOS UIKit UICollectionVIew Flow Layout / Compositional Layout, Texture, FlexLayo
   + 코드량에 있어서 큰 차이를 체감하지 못했다
   + node 별로 Component를 구분지어 구성하는 점에서 마이크로 디자인 영역에 조금 더 맞춰진 듯 하다 - 선언적으로 구성되었다는 의미
   + Rx를 결합, Obj-c 기반의 레퍼런스 코드가 많다
-+ Flex Layout
++ FlexLayout
   + 확실히 코드량이 매우 적다
   + update / init 시점에서 뷰의 레이아웃 구성을 보다 간단하게 할 수 있으며 PinLayout을 활용한다면 더 편리해진다
   + 추상화의 단계가 전 보다는 높아져 간결해진 코드가 많다
@@ -40,16 +40,23 @@ iOS UIKit UICollectionVIew Flow Layout / Compositional Layout, Texture, FlexLayo
 + Texture
   + layoutSpecThatFits의 활용으로 그나마 적용 가능한 수준
   + 레이아웃과 사이징에 있어서는 확실히 Container / Item의 개념으로 접근할 수 있어 용이하다
-+ Flex Layout
++ FlexLayout
   + update 시점에서 주입되는 데이터에 따라서 flex.markDirty()의 호출을 통해서 해당 사이즈에 맞게 동기화가 가능하다
   + grow/shirink, justify/asign 등의 Container / Item 관계 설정을 보다 확실하게 하여 구성이 가능하다
 
 ### 3. Flex 개념
-[Flex Layout Doc](https://github.com/layoutBox/FlexLayout#intro_usage_example)</br>
-[Texture Layout Doc](https://texture-kr.gitbook.io/wiki/newbie-guide/flex-box)</br>
-[Flex Container 관련 이론 정리](https://velog.io/@simoniful/CSS-CSS-Basics-5)</br>
-[Flex Item 관련 이론 정리](https://velog.io/@simoniful/CSS-CSS-Basics-6)</br>
++ [FlexLayout Doc](https://github.com/layoutBox/FlexLayout#documentation)</br>
++ [Texture Doc](https://texture-kr.gitbook.io/wiki/newbie-guide/flex-box)</br>
++ [Flex Container 관련 이론 정리](https://velog.io/@simoniful/CSS-CSS-Basics-5)</br>
++ [Flex Item 관련 이론 정리](https://velog.io/@simoniful/CSS-CSS-Basics-6)</br>
 
 ## KeyNote
+[<img src = "https://user-images.githubusercontent.com/75239459/177723619-801d8ba6-7ab4-4bff-8f24-8e2fa62df078.png" width = 400>](https://www.notion.so/sseungmn/Advances-in-Collection-View-Layout-bc396976d4d5471aa6ff665b523bf556#dc2f400f99094bdab5b722496e7c283a)
 
 ## References
++ [Compositional Layout Example from Apple Sample Code](https://inuplace.tistory.com/1038)
++ [Compositional Layout Basics](https://engineering.nodesagency.com/categories/ios/2020/01/10/Compositional-Layout-Part1)
++ [Compositional Layout concept](https://ios-development.tistory.com/945)
++ [Texture Doc](https://github.com/TextureGroup/Texture)
++ [How to use FlexLayout effectively & Sunsetting Texture](https://medium.com/daangn/how-to-use-flexlayout-effectively-sunsetting-texture-asyncdisplaykit-ca7e3f5c8441)
++ [FlexLayout Doc](https://github.com/layoutBox/FlexLayout)

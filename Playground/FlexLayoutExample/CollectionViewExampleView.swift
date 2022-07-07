@@ -10,7 +10,6 @@ import FlexLayout
 import PinLayout
 
 final class CollectionViewExampleView: UIView {
-
     fileprivate let collectionView: UICollectionView
     fileprivate let flowLayout = UICollectionViewFlowLayout()
     fileprivate let cellTemplate = HouseCell()
@@ -64,6 +63,7 @@ extension CollectionViewExampleView: UICollectionViewDelegateFlowLayout, UIColle
         return cell
     }
     
+    // 반드시 호출을 통해서 리렌더링 될 수 있게 구성
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         cellTemplate.configure(house: houses[indexPath.row])
         return cellTemplate.sizeThatFits(CGSize(width: collectionView.bounds.width, height: .greatestFiniteMagnitude))

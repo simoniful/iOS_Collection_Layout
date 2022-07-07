@@ -11,6 +11,7 @@ import PinLayout
 
 class HouseCell: UICollectionViewCell {
     static let reuseIdentifier = "HouseCell"
+    
     fileprivate let nameLabel = UILabel()
     fileprivate let mainImage = UIImageView()
     fileprivate let priceLabel = UILabel()
@@ -33,7 +34,7 @@ class HouseCell: UICollectionViewCell {
         
         distanceLabel.textAlignment = .right
         
-        // 
+        // Flex 기반의 컨테이너 형식 구성
         contentView.flex.define { (flex) in
             flex.addItem().backgroundColor(.flexLayoutColor).paddingHorizontal(padding).define({ (flex) in
                 flex.addItem(nameLabel).grow(1)
@@ -53,6 +54,7 @@ class HouseCell: UICollectionViewCell {
         fatalError("init(coder:) has not been implemented")
     }
     
+    // 내용이 업데이트 되면 해당 사이즈에 맞게 레이아웃 리렌더링
     func configure(house: House) {
         nameLabel.text = house.name
         nameLabel.flex.markDirty()
@@ -78,6 +80,7 @@ class HouseCell: UICollectionViewCell {
         layout()
         return contentView.frame.size
     }
+    
     private func layout() {
         contentView.flex.layout(mode: .adjustHeight)
     }
