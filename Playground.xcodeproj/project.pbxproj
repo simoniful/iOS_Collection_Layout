@@ -169,8 +169,8 @@
 			children = (
 				F4189EB42875271200068FD3 /* AppDelegate.swift */,
 				F4189EB62875271200068FD3 /* SceneDelegate.swift */,
-				F4189F042875B6D700068FD3 /* CompositionalExample */,
 				F4189EED287534B700068FD3 /* FlowLayoutExample */,
+				F4189F042875B6D700068FD3 /* CompositionalExample */,
 				F4189EEE287534C700068FD3 /* TextureExample */,
 				F4189EF328753A4000068FD3 /* FlexLayoutExample */,
 				F4189F01287552D000068FD3 /* Base */,

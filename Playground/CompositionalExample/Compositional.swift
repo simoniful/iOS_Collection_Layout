@@ -105,7 +105,7 @@ final class Compositional: UIViewController {
             widthDimension: .fractionalWidth(1.0),
             heightDimension: .fractionalHeight(0.3)
         )
-        // collectionView의 width에 3개의 아이템이 위치하도록 하는 것
+        
         let group = NSCollectionLayoutGroup.horizontal(
             layoutSize: groupSize,
             subitem: item,

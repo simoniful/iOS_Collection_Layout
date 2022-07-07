@@ -33,6 +33,7 @@ class HouseCell: UICollectionViewCell {
         
         distanceLabel.textAlignment = .right
         
+        // 
         contentView.flex.define { (flex) in
             flex.addItem().backgroundColor(.flexLayoutColor).paddingHorizontal(padding).define({ (flex) in
                 flex.addItem(nameLabel).grow(1)

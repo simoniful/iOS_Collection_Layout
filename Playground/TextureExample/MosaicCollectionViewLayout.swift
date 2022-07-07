@@ -60,7 +60,10 @@ class MosaicCollectionViewLayout: UICollectionViewFlowLayout {
       if (headerHeight > 0) {
         let headerSize: CGSize = self._headerSizeForSection(section: section)
         
-        let attributes = UICollectionViewLayoutAttributes(forSupplementaryViewOfKind: UICollectionView.elementKindSectionHeader, with: NSIndexPath(row: 0, section: section) as IndexPath)
+        let attributes = UICollectionViewLayoutAttributes(
+            forSupplementaryViewOfKind: UICollectionView.elementKindSectionHeader,
+            with: NSIndexPath(row: 0, section: section) as IndexPath
+        )
         
         attributes.frame = CGRect(x: _sectionInset.left, y: top, width: headerSize.width, height: headerSize.height)
         _headerAttributes.append(attributes)
