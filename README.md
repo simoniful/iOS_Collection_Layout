@@ -1,4 +1,4 @@
-bㅠ# Advances in Collection View Layout
+# Advances in Collection View Layout
 iOS UIKit UICollectionVIew Flow Layout / Compositional Layout, Texture, FlexLayout 기반의 레이아웃 실습
 
 ## Description
